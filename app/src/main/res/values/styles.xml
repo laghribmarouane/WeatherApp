@@ -1,0 +1,158 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Changed navigation bar color -->
+        <item name="android:navigationBarColor"> @android:color/transparent</item>
+        <!-- Changed status bar color -->
+        <item name="android:statusBarColor"> @android:color/transparent</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- TextInputLayout -->
+    <style name="AppTextField" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="startIconTint">@color/colorPrimary</item>
+        <item name="hintTextColor">@color/colorPrimary</item>
+        <item name="boxBackgroundColor">@android:color/white</item>
+    </style>
+
+    <style name="CityNameStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_3</item>
+        <item name="android:fontFamily">@font/fira_sans_bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_size_4</item>
+    </style>
+
+    <style name="ErrorMessageStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_3</item>
+        <item name="android:layout_marginStart">@dimen/margin_3</item>
+        <item name="android:layout_marginEnd">@dimen/margin_3</item>
+        <item name="android:fontFamily">@font/fira_sans_bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_size_3</item>
+    </style>
+
+    <style name="CurrentTempStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/fira_sans_bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_size_4</item>
+    </style>
+
+    <style name="LocationImageStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_4_5</item>
+    </style>
+
+    <style name="WeatherPreviewStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/margin_0_5</item>
+        <item name="android:fontFamily">@font/fira_sans_semibold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_size_2_5</item>
+    </style>
+
+    <style name="SectionDividerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginStart">@dimen/margin_0_5</item>
+        <item name="android:layout_marginTop">@dimen/margin_1</item>
+        <item name="android:layout_marginEnd">@dimen/margin_0_5</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="LargeWeatherIconStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+    </style>
+
+    <style name="WeatherDetailsStyle">
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:fontFamily">@font/fira_sans_semibold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_size_2_25</item>
+    </style>
+
+    <style name="WeatherIconSmallStyle">
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+    </style>
+
+    <style name="CurrentWeatherGridStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margin_0_5</item>
+        <item name="android:columnCount">5</item>
+        <item name="android:rowCount">2</item>
+    </style>
+
+    <style name="CenterPointStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_1</item>
+    </style>
+
+
+    <style name="ForecastItemStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:fontFamily">@font/fira_sans_semibold</item>
+        <item name="android:textSize">@dimen/text_size_2_25</item>
+        <item name="android:layout_marginTop">@dimen/margin_1</item>
+    </style>
+
+    <style name="ErrorLoadingImageStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">50dp</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="ForecastListStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginTop">@dimen/margin_1</item>
+    </style>
+
+
+
+    <style name="AppWidgetTemp" parent="AppWidgetDescr">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+    <style name="AppWidgetDescr" parent="Base.TextAppearance.AppCompat.Subhead">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!--TextButton -->
+    <style name="TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0.03125</item>
+    </style>
+
+</resources>

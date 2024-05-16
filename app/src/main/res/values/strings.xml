@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="enter_city">Enter city</string>
+    <string name="search">View Weather</string>
+    <string name="icon_presenting_weather">Icon describing weather conditions</string>
+    <string name="weather_icon_min_temp">Weather icon presenting minimum temperature</string>
+    <string name="weather_icon_max_temp">Weather icon presenting maximum temperature</string>
+    <string name="weather_icon_humidity">Weather icon presenting humidity</string>
+    <string name="weather_icon_pressure">Weather icon presenting air pressure</string>
+    <string name="weather_icon_wind">Weather icon presenting wind</string>
+    <string name="warning_message">You have provide a city name</string>
+    <string name="pin_location">Pin location</string>
+    <string name="current_weather_icon">Current weather icon</string>
+    <string name="network_status">Network status icon, loading or error.</string>
+
+    <string name="no_internet_error">Check internet connection.</string>
+    <string name="wrong_input_error">No weather for this city found.</string>
+    <string name="something_wrong_error">"ERror "</string>
+    <string name="add_widget">Add widget</string>
+    <string name="widget_default">No information…</string>
+    <string name="default_null"> </string>
+
+    <string name="location_required_explanation">Activet location .</string>
+
+    <string name="location_permission_rejected">Location required!</string>
+
+</resources>

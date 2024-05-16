@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3EC9BE</color>
+    <color name="colorPrimaryDark">#3EC9BE</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="purple_500">#F37216</color>
+    <color name="purple_700">#F37216</color>
+    <color name="purple_e5c">#14ae5c</color>
+    <color name="purple_357">#14A357</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_backround">#0093FE</color>
+    <color name="border_input">#AAAAAA</color>
+</resources>
